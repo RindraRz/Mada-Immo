@@ -1,0 +1,84 @@
+
+@{
+    ViewData["Title"] = "Ajout location";
+}
+ <section id="basic-horizontal-layouts">
+        <div class="placed-center">
+            <div class="col-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="auth-title">Ajouter nouvelle location </h4>
+                    </div>
+                    <div class="card-content">
+                        <div class="card-body">
+                            <form class="form form-horizontal" asp-action="ExecuteAjoutLocation" asp-controller="Admin" method="post" >
+                                <div class="form-body">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <label for="first-name-horizontal">Client</label>
+                                        </div>
+                                        <fieldset class="col-md-9 form-group">
+                                            <select class="form-control" name="client">
+                                                @foreach(var item in Model.Clients){
+                                                <option value="@item.ClientId">@item.Email</option>
+                                                }
+                                               
+                                            </select>
+                                        </fieldset>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <label for="first-name-horizontal">Duree</label>
+                                        </div>
+                                        <fieldset class="col-md-9 form-group">
+                                            <input type="number" class="form-control" name="duree" required>
+                                        </fieldset>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <label for="first-name-horizontal">Date de debut</label>
+                                        </div>
+                                        <fieldset class="col-md-9 form-group">
+                                            <input type="date" class="form-control" name="date_debut" required>
+                                        </fieldset>
+                                    </div>
+                                     <div class="form-body">
+                                    <div class="row">
+                                        <div class="col-md-3">
+                                            <label for="first-name-horizontal">Bien</label>
+                                        </div>
+                                        <fieldset class="col-md-9 form-group">
+                                            <select class="form-control" name="bien">
+                                                @foreach(var item in Model.Biens){
+                                                <option value="@item.BienId">@item.Nom</option>
+                                                }
+                                               
+                                            </select>
+                                        </fieldset>
+                                    </div>
+                                    <div class="col-sm-12 d-flex justify-content-end">
+                                        <button type="submit" class="btn btn-primary me-1 mb-1 mt-4">Ajouter</button>
+                                    </div>
+                                </div>
+                            </form>
+                             @if (TempData["erreur"] != null)
+                    {
+                        <br />
+                         <label class="text-danger">@TempData["erreur"]</label>
+                    }
+                          @if (TempData["message"] != null)
+                    {
+                        <br />
+                         <label class="text-danger"></label>
+                            <div class="alert alert-success">
+                            @TempData["message"]
+                            </div>
+
+                    }
+               
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>

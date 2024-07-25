@@ -1,0 +1,79 @@
+@using Mada_immo.Models.includes
+@{
+  Layout = "_ClientLayout";
+}
+<div class="col-lg-12">
+  <div class="row">
+    <form asp-controller="Client" asp-action="Index" method="post">
+      <div class="mb-4">
+        <h5>Choisir deux dates</h5>
+      </div>
+      <div class="mb-4">
+        <input type="date" name="date1" />
+
+        <input type="date" name="date2" />
+
+        <button class="btn btn-primary  " type="submit">Valider</button>
+      </div>
+
+
+    </form>
+  </div>
+  <div class="row">
+    <div class="card w-100">
+      <div class="card-body p-4">
+        <h5 class="card-title fw-semibold mb-4">Mes loyers entres @Model.Date1 et @Model.Date2</h5>
+        <div class="table-responsive">
+          <table class="table text-nowrap mb-0 align-middle">
+            <thead class="text-dark fs-4">
+              <tr>
+                <th class="border-bottom-0">
+                  <h6 class="fw-semibold mb-0">Maison</h6>
+                </th>
+                <th class="border-bottom-0">
+                  <h6 class="fw-semibold mb-0">Mois</h6>
+                </th>
+                <th class="border-bottom-0">
+                  <h6 class="fw-semibold mb-0">Statut</h6>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              @foreach (var item in @Model.Locations)
+              {
+                <tr>
+                  <td class="border-bottom-0">
+                    <h6 class="fw-semibold mb-0">@item.LocationIdNavigation.BienIdNavigation.Nom </h6>
+                  </td>
+                  <td class="border-bottom-0">
+                    <h6 class="fw-semibold mb-0">@item.Mois</h6>
+                  </td>
+                  <td class="@GetStatutPayee(item.GetPayer())">
+                    <h6 class="fw-semibold mb-0" +>@item.GetStatut()</h6>
+                  </td>
+
+                </tr>
+              }
+
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+@functions {
+  string GetStatutPayee(bool t)
+  {
+    switch (t)
+    {
+      case true:
+        return "bg bg-success"; // Bleu
+
+      default:
+        return "bg bg-warning";
+
+
+    }
+  }
+}

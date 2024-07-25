@@ -1,0 +1,70 @@
+@using Mada_immo.Models.includes;
+@{
+    Layout = "_PropLayout";
+}
+<div class="card w-500">
+    <div class="card-body p-4">
+        <h5 class="card-title fw-semibold mb-4">Liste de mes biens</h5>
+        <div class="table-responsive">
+            <table class="table text-nowrap mb-0 align-middle">
+                <thead class="text-dark fs-4">
+                    <tr>
+                        <th class="border-bottom-0">
+                            <h6 class="fw-semibold mb-0">Nom</h6>
+                        </th>
+                        <th class="border-bottom-0">
+                            <h6 class="fw-semibold mb-0">Description</h6>
+                        </th>
+                        <th class="border-bottom-0">
+                            <h6 class="fw-semibold mb-0">Region</h6>
+                        </th>
+                        <th class="border-bottom-0">
+                            <h6 class="fw-semibold mb-0">Loyer</h6>
+                        </th>
+                        <th class="border-bottom-0">
+                            <h6 class="fw-semibold mb-0">Type</h6>
+                        </th>
+                        <th class="border-bottom-0">
+                            <h6 class="fw-semibold mb-0">Date disponibilite</h6>
+                        </th>
+
+                    </tr>
+
+                </thead>
+                <tbody>
+                    @foreach (var item in @Model.Biens)
+                    {
+                        <tr>
+                            <td class="border-bottom-0">
+                                <h6 class="fw-semibold mb-0">@item.Nom</h6>
+                            </td>
+                            <td class="border-bottom-0">
+                                <h6 class="fw-semibold mb-1">@item.Description.Substring(0, 50);</h6>
+                            </td>
+                            <td class="border-bottom-0">
+                                <h6 class="fw-semibold mb-1">@item.Region </h6>
+                            </td>
+                            <td class="border-bottom-0">
+                                <h6 class="fw-semibold mb-1">@SessionHelper.GetFormatted(item.Loyer) ar</h6>
+                            </td>
+                            <td class="border-bottom-0">
+                                <h6 class="fw-semibold mb-1">@item.TypeBienIdNavigation.Nom</h6>
+                            </td>
+                            <td class="border-bottom-0">
+                                <h6 class="fw-semibold mb-1">@item.DateDisponiblite</h6>
+                            </td>
+
+                            <td class="border-bottom-0">
+                                <a type="button" class="btn btn-primary" aria-expanded="false" asp-action="ClassementEtape"
+                                    asp-controller="Equipe">
+                                    Details
+                                </a>
+                            </td>
+
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

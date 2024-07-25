@@ -1,0 +1,102 @@
+D:\S6\eval 3\Mada-immo\bin\Debug\net6.0\appsettings.Development.json
+D:\S6\eval 3\Mada-immo\bin\Debug\net6.0\appsettings.json
+D:\S6\eval 3\Mada-immo\bin\Debug\net6.0\Mada-immo.staticwebassets.runtime.json
+D:\S6\eval 3\Mada-immo\bin\Debug\net6.0\Mada-immo.exe
+D:\S6\eval 3\Mada-immo\bin\Debug\net6.0\Mada-immo.deps.json
+D:\S6\eval 3\Mada-immo\bin\Debug\net6.0\Mada-immo.runtimeconfig.json
+D:\S6\eval 3\Mada-immo\bin\Debug\net6.0\Mada-immo.dll
+D:\S6\eval 3\Mada-immo\bin\Debug\net6.0\Mada-immo.pdb
+D:\S6\eval 3\Mada-immo\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\S6\eval 3\Mada-immo\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\S6\eval 3\Mada-immo\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\S6\eval 3\Mada-immo\bin\Debug\net6.0\Npgsql.dll
+D:\S6\eval 3\Mada-immo\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\S6\eval 3\Mada-immo\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\S6\eval 3\Mada-immo\obj\Debug\net6.0\Mada-immo.csproj.AssemblyReference.cache
+D:\S6\eval 3\Mada-immo\obj\Debug\net6.0\Mada-immo.GeneratedMSBuildEditorConfig.editorconfig
+D:\S6\eval 3\Mada-immo\obj\Debug\net6.0\Mada-immo.AssemblyInfoInputs.cache
+D:\S6\eval 3\Mada-immo\obj\Debug\net6.0\Mada-immo.AssemblyInfo.cs
+D:\S6\eval 3\Mada-immo\obj\Debug\net6.0\Mada-immo.csproj.CoreCompileInputs.cache
+D:\S6\eval 3\Mada-immo\obj\Debug\net6.0\Mada-immo.MvcApplicationPartsAssemblyInfo.cache
+D:\S6\eval 3\Mada-immo\obj\Debug\net6.0\Mada-immo.RazorAssemblyInfo.cache
+D:\S6\eval 3\Mada-immo\obj\Debug\net6.0\Mada-immo.RazorAssemblyInfo.cs
+D:\S6\eval 3\Mada-immo\obj\Debug\net6.0\staticwebassets.build.json
+D:\S6\eval 3\Mada-immo\obj\Debug\net6.0\staticwebassets.development.json
+D:\S6\eval 3\Mada-immo\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\S6\eval 3\Mada-immo\obj\Debug\net6.0\scopedcss\bundle\Mada-immo.styles.css
+D:\S6\eval 3\Mada-immo\obj\Debug\net6.0\scopedcss\projectbundle\Mada-immo.bundle.scp.css
+D:\S6\eval 3\Mada-immo\obj\Debug\net6.0\Mada-immo.csproj.CopyComplete
+D:\S6\eval 3\Mada-immo\obj\Debug\net6.0\Mada-immo.dll
+D:\S6\eval 3\Mada-immo\obj\Debug\net6.0\refint\Mada-immo.dll
+D:\S6\eval 3\Mada-immo\obj\Debug\net6.0\Mada-immo.pdb
+D:\S6\eval 3\Mada-immo\obj\Debug\net6.0\Mada-immo.genruntimeconfig.cache
+D:\S6\eval 3\Mada-immo\obj\Debug\net6.0\ref\Mada-immo.dll
+D:\S6\eval 3\Mada-immo\bin\Debug\net6.0\CsvHelper.dll
+D:\S6\Eval 3 tena ixy\Mada-immo\bin\Debug\net6.0\appsettings.Development.json
+D:\S6\Eval 3 tena ixy\Mada-immo\bin\Debug\net6.0\appsettings.json
+D:\S6\Eval 3 tena ixy\Mada-immo\bin\Debug\net6.0\Mada-immo.staticwebassets.runtime.json
+D:\S6\Eval 3 tena ixy\Mada-immo\bin\Debug\net6.0\Mada-immo.exe
+D:\S6\Eval 3 tena ixy\Mada-immo\bin\Debug\net6.0\Mada-immo.deps.json
+D:\S6\Eval 3 tena ixy\Mada-immo\bin\Debug\net6.0\Mada-immo.runtimeconfig.json
+D:\S6\Eval 3 tena ixy\Mada-immo\bin\Debug\net6.0\Mada-immo.dll
+D:\S6\Eval 3 tena ixy\Mada-immo\bin\Debug\net6.0\Mada-immo.pdb
+D:\S6\Eval 3 tena ixy\Mada-immo\bin\Debug\net6.0\CsvHelper.dll
+D:\S6\Eval 3 tena ixy\Mada-immo\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+D:\S6\Eval 3 tena ixy\Mada-immo\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\S6\Eval 3 tena ixy\Mada-immo\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\S6\Eval 3 tena ixy\Mada-immo\bin\Debug\net6.0\Npgsql.dll
+D:\S6\Eval 3 tena ixy\Mada-immo\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\S6\Eval 3 tena ixy\Mada-immo\bin\Debug\net6.0\System.Security.Permissions.dll
+D:\S6\Eval 3 tena ixy\Mada-immo\obj\Debug\net6.0\Mada-immo.csproj.AssemblyReference.cache
+D:\S6\Eval 3 tena ixy\Mada-immo\obj\Debug\net6.0\Mada-immo.GeneratedMSBuildEditorConfig.editorconfig
+D:\S6\Eval 3 tena ixy\Mada-immo\obj\Debug\net6.0\Mada-immo.AssemblyInfoInputs.cache
+D:\S6\Eval 3 tena ixy\Mada-immo\obj\Debug\net6.0\Mada-immo.AssemblyInfo.cs
+D:\S6\Eval 3 tena ixy\Mada-immo\obj\Debug\net6.0\Mada-immo.csproj.CoreCompileInputs.cache
+D:\S6\Eval 3 tena ixy\Mada-immo\obj\Debug\net6.0\Mada-immo.MvcApplicationPartsAssemblyInfo.cache
+D:\S6\Eval 3 tena ixy\Mada-immo\obj\Debug\net6.0\Mada-immo.RazorAssemblyInfo.cache
+D:\S6\Eval 3 tena ixy\Mada-immo\obj\Debug\net6.0\Mada-immo.RazorAssemblyInfo.cs
+D:\S6\Eval 3 tena ixy\Mada-immo\obj\Debug\net6.0\staticwebassets.build.json
+D:\S6\Eval 3 tena ixy\Mada-immo\obj\Debug\net6.0\staticwebassets.development.json
+D:\S6\Eval 3 tena ixy\Mada-immo\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\S6\Eval 3 tena ixy\Mada-immo\obj\Debug\net6.0\scopedcss\bundle\Mada-immo.styles.css
+D:\S6\Eval 3 tena ixy\Mada-immo\obj\Debug\net6.0\scopedcss\projectbundle\Mada-immo.bundle.scp.css
+D:\S6\Eval 3 tena ixy\Mada-immo\obj\Debug\net6.0\Mada-immo.csproj.CopyComplete
+D:\S6\Eval 3 tena ixy\Mada-immo\obj\Debug\net6.0\Mada-immo.dll
+D:\S6\Eval 3 tena ixy\Mada-immo\obj\Debug\net6.0\refint\Mada-immo.dll
+D:\S6\Eval 3 tena ixy\Mada-immo\obj\Debug\net6.0\Mada-immo.pdb
+D:\S6\Eval 3 tena ixy\Mada-immo\obj\Debug\net6.0\Mada-immo.genruntimeconfig.cache
+D:\S6\Eval 3 tena ixy\Mada-immo\obj\Debug\net6.0\ref\Mada-immo.dll
+E:\S6\Eval 3\Mada-immo\bin\Debug\net6.0\appsettings.Development.json
+E:\S6\Eval 3\Mada-immo\bin\Debug\net6.0\appsettings.json
+E:\S6\Eval 3\Mada-immo\bin\Debug\net6.0\Mada-immo.staticwebassets.runtime.json
+E:\S6\Eval 3\Mada-immo\bin\Debug\net6.0\Mada-immo.exe
+E:\S6\Eval 3\Mada-immo\bin\Debug\net6.0\Mada-immo.deps.json
+E:\S6\Eval 3\Mada-immo\bin\Debug\net6.0\Mada-immo.runtimeconfig.json
+E:\S6\Eval 3\Mada-immo\bin\Debug\net6.0\Mada-immo.dll
+E:\S6\Eval 3\Mada-immo\bin\Debug\net6.0\Mada-immo.pdb
+E:\S6\Eval 3\Mada-immo\bin\Debug\net6.0\CsvHelper.dll
+E:\S6\Eval 3\Mada-immo\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+E:\S6\Eval 3\Mada-immo\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\S6\Eval 3\Mada-immo\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\S6\Eval 3\Mada-immo\bin\Debug\net6.0\Npgsql.dll
+E:\S6\Eval 3\Mada-immo\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+E:\S6\Eval 3\Mada-immo\bin\Debug\net6.0\System.Security.Permissions.dll
+E:\S6\Eval 3\Mada-immo\obj\Debug\net6.0\Mada-immo.csproj.AssemblyReference.cache
+E:\S6\Eval 3\Mada-immo\obj\Debug\net6.0\Mada-immo.GeneratedMSBuildEditorConfig.editorconfig
+E:\S6\Eval 3\Mada-immo\obj\Debug\net6.0\Mada-immo.AssemblyInfoInputs.cache
+E:\S6\Eval 3\Mada-immo\obj\Debug\net6.0\Mada-immo.AssemblyInfo.cs
+E:\S6\Eval 3\Mada-immo\obj\Debug\net6.0\Mada-immo.csproj.CoreCompileInputs.cache
+E:\S6\Eval 3\Mada-immo\obj\Debug\net6.0\Mada-immo.MvcApplicationPartsAssemblyInfo.cache
+E:\S6\Eval 3\Mada-immo\obj\Debug\net6.0\Mada-immo.RazorAssemblyInfo.cache
+E:\S6\Eval 3\Mada-immo\obj\Debug\net6.0\Mada-immo.RazorAssemblyInfo.cs
+E:\S6\Eval 3\Mada-immo\obj\Debug\net6.0\staticwebassets.build.json
+E:\S6\Eval 3\Mada-immo\obj\Debug\net6.0\staticwebassets.development.json
+E:\S6\Eval 3\Mada-immo\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\S6\Eval 3\Mada-immo\obj\Debug\net6.0\scopedcss\bundle\Mada-immo.styles.css
+E:\S6\Eval 3\Mada-immo\obj\Debug\net6.0\scopedcss\projectbundle\Mada-immo.bundle.scp.css
+E:\S6\Eval 3\Mada-immo\obj\Debug\net6.0\Mada-immo.csproj.CopyComplete
+E:\S6\Eval 3\Mada-immo\obj\Debug\net6.0\Mada-immo.dll
+E:\S6\Eval 3\Mada-immo\obj\Debug\net6.0\refint\Mada-immo.dll
+E:\S6\Eval 3\Mada-immo\obj\Debug\net6.0\Mada-immo.pdb
+E:\S6\Eval 3\Mada-immo\obj\Debug\net6.0\Mada-immo.genruntimeconfig.cache
+E:\S6\Eval 3\Mada-immo\obj\Debug\net6.0\ref\Mada-immo.dll

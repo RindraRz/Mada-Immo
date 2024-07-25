@@ -1,0 +1,89 @@
+@using Mada_immo.Models.includes;
+@using Mada_immo.Models.Data;
+<div class="col-lg-12">
+  <div class="row">
+    <form asp-controller="Admin" asp-action="Index" method="post">
+      <div class="mb-4">
+        <h5>Choisir deux dates</h5>
+      </div>
+      <div class="mb-4">
+        <input type="date" name="date1" />
+
+        <input type="date" name="date2" />
+
+        <button class="btn btn-primary  " type="submit">Valider</button>
+      </div>
+
+
+    </form>
+  </div>
+  <div class="row">
+    <div class="card w-100">
+      <div class="card-body p-4">
+        <h5 class="card-title fw-semibold mb-4">Chiffre d'affaire et gain par mois entre @Model.Date1 et @Model.Date2
+        </h5>
+        <div class="table-responsive">
+          <table class="table text-nowrap mb-0 align-middle table-hover">
+            <thead class="text-dark fs-4">
+              <tr>
+                <th class="border-bottom-0">
+                  <h6 class="fw-semibold mb-0">MOIS ET ANNEE</h6>
+                </th>
+                <th class="border-bottom-0">
+                  <h6 class="fw-semibold mb-0">CHIFFRE AFFAIRE</h6>
+                </th>
+                <th class="border-bottom-0">
+                  <h6 class="fw-semibold mb-0">GAIN</h6>
+                </th>
+                <th class="border-bottom-0">
+                  <h6 class="fw-semibold mb-0">Nombre de location </h6>
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              @foreach (var item in @Model.StatistiqueGains)
+              {
+
+                <tr class="">
+                  <td class="border-bottom-0">
+                    <h6 class="fw-semibold mb-0">@item.GetMois(item.Mois) @item.Annee</h6>
+                  </td>
+                  <td class="@GetIntervall(item.ContainIntervall)">
+                    <h6 class="fw-semibold mb-0">@SessionHelper.GetFormatted(item.ChiffreAffaire) AR</h6>
+                  </td>
+                  <td class="border-bottom-0">
+                    <h6 class="fw-semibold mb-0">@SessionHelper.GetFormatted(item.Gain) AR</h6>
+                  </td>
+                
+                </tr>
+
+              }
+              <tr>
+                <td>
+                  <h3 class="fw-semibold mb-0 fs-20">Total</h3>
+                </td>
+                <td>
+                  <h3 class="fw-semibold mb-0 fs-20">@SessionHelper.GetFormatted(Model.TotalChiffre) AR</h3>
+                </td>
+                <td>
+                  <h3 class="fw-semibold mb-0 fs-20">@SessionHelper.GetFormatted(Model.TotalGain) AR</h3>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+@functions {
+  string GetIntervall(bool t)
+  {
+    if (t)
+    {
+      return "bg bg-warning";
+    }
+    return "";
+  }
+}
